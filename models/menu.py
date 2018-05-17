@@ -60,6 +60,9 @@ response.menu += [
     
             (T('altas'), False,
              URL('reportes', '')),
+            
+            (T('modificaciones'), False,
+             URL('reportes', '')),
 
             (T('bajas'), False,
              URL('reportes', '')), 
