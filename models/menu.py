@@ -54,3 +54,14 @@ response.menu += [
                 (T('carrito'), False, URL('Producto', ''),[]),
                 ])
              ]
+
+response.menu += [
+    (T('reportes'), False, '#', [
+    
+            (T('altas'), False,
+             URL('reportes', '')),
+
+            (T('bajas'), False,
+             URL('reportes', '')), 
+                            ])
+                ]
