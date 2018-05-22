@@ -65,6 +65,6 @@ response.menu += [
              URL('reportes', '')),
 
             (T('bajas'), False,
-             URL('reportes', '')), 
+             URL('reportes', 'bajas')), 
                             ])
                 ]

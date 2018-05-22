@@ -247,6 +247,7 @@
 'merge': 'combinar',
 'Models': 'Modelos',
 'models': 'modelos',
+'modificaciones': 'modificaciones',
 'Modified By': 'Modificado Por',
 'Modified On': 'Modificado En',
 'Modules': 'Módulos',
