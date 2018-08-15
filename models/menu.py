@@ -50,21 +50,47 @@ def _():
     # ------------------------------------------------------------------------------------------------------------------
 
 response.menu += [
-            (T('Producto'), False, URL('default','index'), [
-                (T('carrito'), False, URL('Producto', ''),[]),
-                ])
-             ]
+    (T('ventas'), False, URL('default','index'), [
+                (T('catalogo'), False,
+                 URL('ventas', '')),
+                 
+                 (T('carrito'), False,
+                 URL('ventas', '')),
+                  
+                 (T('pago'), False,
+                 URL('ventas', '')),
+                 
+                 (T('comprobantes'), False,
+                 URL('ventas', '')),])
+                ]
+         
+
 
 response.menu += [
-    (T('reportes'), False, '#', [
+    (T('ABN'), False, '#', [
     
-            (T('altas'), False,
-             URL('reportes', '')),
+            (T('cliente'), False,
+             URL('ABN', '')),
             
-            (T('modificaciones'), False,
-             URL('reportes', '')),
+            (T('producto'), False,
+             URL('ABN', '')),
 
-            (T('bajas'), False,
-             URL('reportes', 'bajas')), 
+            (T('categoria'), False,
+             URL('ABN', '')),
+            
+            (T('proveedores'), False,
+             URL('ABN', ''))
                             ])
+                ]
+
+response.menu += [
+    (T('reportes'), False, URL('default','index'), [
+                (T('clientes'), False,
+                 URL('ventas', '')),
+                 
+                 (T('lista precio'), False,
+                 URL('ventas', '')),
+                  
+                 (T('cta cte'), False,
+                 URL('ventas', ''))])
                 ]
