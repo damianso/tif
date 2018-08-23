@@ -1,7 +1,7 @@
 def venta_productos():
 
     # buscar todos los productos:
-    condicion = db.productos.marca == 'marcas'
+    condicion = db.productos
     campos = db.productos.nombre, db.productos.id_producto, db.productos.descripcion, db.productos.precio
     registros = db(condicion).select(*campos)
 
