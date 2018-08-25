@@ -217,3 +217,6 @@
 [2018-08-24 21:08:02] EDIT tif/views/ventas/confirmar.html: -1
 [2018-08-24 21:13:51] EDIT tif/views/venta/carrito.html: 0
 [2018-08-24 21:16:51] EDIT tif/views/ventas/venta_productos.html: -1
+[2018-08-24 21:19:28] EDIT tif/controllers/ventas.py: 0
+[2018-08-24 21:21:34] CREATE ventas/carrito.html: 0
+[2018-08-24 21:21:51] EDIT tif/views/ventas/carrito.html: 18
