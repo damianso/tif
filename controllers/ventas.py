@@ -24,7 +24,7 @@ def carrito():
         reg_producto = db(db.productos.id_producto==id_prod).select().first()
         item["descripcion"] = reg_producto.nombre
         item["precio"] = reg_producto.precio
-        item["alicuota_iva"] = reg_producto.alicuota_iva
+        item["alicuota_iva"] = reg_producto.alicuota_iva or 21
         # si no está definida la lista de items, lo creamos vacia en la sesión:
         if "items_venta" not in session:
             session["items_venta"] = []
