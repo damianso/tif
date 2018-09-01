@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import mercadopago
 import json
 import os, sys
 def index():
