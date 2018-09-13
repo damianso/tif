@@ -239,3 +239,5 @@
 [2018-09-12 21:22:15] DELETE tif/views/_productos/borrar_item.html: -3
 [2018-09-12 21:23:10] CREATE productos/borrar_item.html: 0
 [2018-09-12 21:23:27] EDIT tif/views/productos/borrar_item.html: 6
+[2018-09-12 21:29:08] CREATE productos.py: 0
+[2018-09-12 21:29:38] EDIT tif/controllers/productos.py: 68
