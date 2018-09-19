@@ -241,3 +241,5 @@
 [2018-09-12 21:23:27] EDIT tif/views/productos/borrar_item.html: 6
 [2018-09-12 21:29:08] CREATE productos.py: 0
 [2018-09-12 21:29:38] EDIT tif/controllers/productos.py: 68
+[2018-09-19 20:35:30] CREATE menu_administrador.py: 0
+[2018-09-19 20:36:52] EDIT tif/models/menu_administrador.py: 33
