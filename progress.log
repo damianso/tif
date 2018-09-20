@@ -243,3 +243,13 @@
 [2018-09-12 21:29:38] EDIT tif/controllers/productos.py: 68
 [2018-09-19 20:35:30] CREATE menu_administrador.py: 0
 [2018-09-19 20:36:52] EDIT tif/models/menu_administrador.py: 33
+[2018-09-19 20:41:46] EDIT tif/models/menu_administrador.py: 18
+[2018-09-19 20:42:15] EDIT tif/models/menu_administrador.py: 0
+[2018-09-19 20:48:52] EDIT tif/views/default/index.html: 13
+[2018-09-19 20:51:49] EDIT tif/views/default/index.html: -9
+[2018-09-19 20:52:47] EDIT tif/views/default/index.html: 0
+[2018-09-19 20:55:16] EDIT tif/views/default/index.html: 0
+[2018-09-19 21:04:42] CREATE default/principal_administrador.html: 0
+[2018-09-19 21:06:23] EDIT tif/views/default/principal_administrador.html: 18
+[2018-09-19 21:08:08] CREATE layout_administrador.html: 0
+[2018-09-19 21:08:29] EDIT tif/views/layout_administrador.html: 123

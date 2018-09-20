@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 # this file is released under public domain and you can use without limitations
 
 # ----------------------------------------------------------------------------------------------------------------------
@@ -41,6 +40,29 @@ response.menu_administrador += [
                             ])
                 ]
 
+response.menu_administrador += [
+    (T('Bajas'), False, '#', [
+    
+            (T(''), False,
+             URL('', '')),
+                            ])
+                ]
+
+response.menu_administrador += [
+    (T('Modificaciones'), False, '#', [
+    
+            (T(''), False,
+             URL('', '')),
+                            ])
+                ]
+
+response.menu_administrador += [
+    (T('Reportes'), False, '#', [
+    
+            (T(''), False,
+             URL('', '')),
+                            ])
+                ]
 
 DEVELOPMENT_MENU = True
 
